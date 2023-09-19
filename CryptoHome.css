@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+nav{
+height:7vh;
+width:100vw;
+display: flex;
+justify-content: space-between;
+background-color: white;
+align-items: center;
+/* position: fixed; */
+}
+
+.nav_left{
+    height:70%;
+    width:16%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.1em 0.3em 0.3em 0.7em;
+}
+
+.nav_left img{
+    width:15%;
+    height:72%
+}
+.nav_left h1{
+    font-size: 2em;
+}
+
+.nav_right{
+    width:10%;
+    height:80%;
+    display: flex;
+    align-items: center;
+   
+}
+.nav_right button{
+    padding:0.7em 2em;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid goldenrod;
+    font-size: 1em;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+background-color: black;
+color:white;
+}
+
+.main_posters{
+    display: flex;
+    width: 100vw;
+    height:60%;
+}
+
+
+.main_poster_left{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_poster_left h2{
+    display: flex;
+    text-align: left;
+    width:52%;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_poster_right{
+    width:50%;
+
+padding-top: 2em;
+display: flex;
+align-items: center;
+}
+.main_poster_right img{
+    height:100%;
+}
+.top_coin{
+    text-align: center;
+    color:goldenrod;
+    font-family: 'Poppins', sans-serif;
+}
+
+#topcoins{
+    width:100%;
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 1.5em;
+}
+.crypto_coin{
+    width:25%;
+    height:10vh;
+   text-decoration: none;
+    display: flex;
+    padding:0.2em;
+    margin-right: 1em;
+    min-width: 20%;
+    background-color: white;
+    color:red;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#crypto_name{
+    font-size: 1.3em;
+}
+#price{
+    text-align: left;
+}
+.info{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   
+}
+.info h4{width: 100%;}
+
+footer{
+    height:10vh;
+    width:100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerright{
+    height:80%;
+    width:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footerright img{
+    height:60%;
+    width:40%;
+}
+.footerleft{
+    padding:1em
+}
